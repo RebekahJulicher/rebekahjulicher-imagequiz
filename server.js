@@ -10,7 +10,7 @@ app.use(cors());
 
 
 app.get('/', (request, response) => {
-    response.send('Welcome to Image Quiz API');
+    response.send('Welcome to my Image Quiz API');
 });
 
 
