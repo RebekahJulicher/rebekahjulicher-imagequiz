@@ -14,7 +14,6 @@ app.get('/', (request, response) => {
     response.send('Welcome to my Image Quiz API');
 });
 
-
 app.get('/quizzes', (request, response) => {
     let metadata = data.quizzes.map(x => {
         return {id: x.id, title: x.title, picture: x.picture}
